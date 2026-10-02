@@ -10,7 +10,7 @@ export function hasMinLength(value: string, minLength: number): boolean {
   return value.length >= minLength;
 }
 
-export function isEqualsToOtherValue(
+export function isEqualToOtherValue(
   value: string,
   otherValue: string
 ): boolean {
